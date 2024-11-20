@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'brewski'; src: url('../fuentes/Brewski-Original.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'jol'; src: url('../fuentes/JustOldFashion.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mith1'; src: url('../fuentes/Mithella-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mith2'; src: url('../fuentes/Mithella-Bold.otf');
+    font-weight: bold;
+    font-style: bold;
+}
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: #180B08;
+    margin: 0;
+}
+.efe{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+header{
+    padding: 20px 15px 15px 20px;
+    background-color: #231916;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+nav a{
+    padding: 2px 20px;
+    border-right: 3px #581303 solid;
+    display: block;
+    color: #FCFAEA;
+    font-size: 42px;
+    font-family: "brewski", sans-serif;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+nav a:hover{
+    color: #DA9F0D;
+    font-weight: bold;
+}
+nav .contacto{
+    border-right: 0px;
+}
+nav .contacto:hover{
+    color: #3A811E;
+    font-weight: bold;
+}
+nav .proyecto:hover{
+    color: #D55820;
+    font-weight: bold;
+}
+nav .actividades:hover{
+    color: #AA2A7F;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 32px;
+    font-family: "jol", sans-serif;
+    background-image: url(../Imagenes/fondoact1.png);
+    color: #EED695;
+    height: 131px;
+}
+
+
+
+
+
+
+section{
+    display: flex;
+    color: #1A1A1A;
+    font-family: "brewski", sans-serif;
+    background-color: #E5C478;
+}
+
+.fega{
+    padding-left: 70px;
+    padding-right: 80px;
+    font-family: "mith1", sans-serif;
+    text-align: right;
+    font-size: 30px;
+
+}
+.fega p{
+    padding-top: 100px;
+}
+
+
+
+
+.conc{
+    padding-left: 70px;
+    padding-right: 80px;
+    font-family: "mith1", sans-serif;
+    text-align: left;
+    font-size: 30px;
+
+}
+.conc p{
+    padding-top: 100px;
+}
+
+
+
+
+
+.evcu{
+    background-color: #311610;
+    color: #FCFAEA;
+    padding-left: 70px;
+    padding-right: 80px;
+    font-family: "mith1", sans-serif;
+    text-align: right;
+    font-size: 30px;
+
+}
+.evcu p{
+    padding-top: 100px;
+}
+
+
+
+
+.tall{
+    height: 550px;
+    color: #FCFAEA;
+    background-color: #311610;
+    padding-left: 70px;
+    padding-right: 80px;
+    font-family: "mith1", sans-serif;
+    text-align: left;
+    font-size: 30px;
+
+}
+.tall p{
+    padding-top: 110px;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #1A1A1A;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: "mith2", sans-serif;
+    color: #FCFAEA;
+    padding: 10px 15px 0 15px;
+}
+

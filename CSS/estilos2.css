@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'brewski'; src: url('../fuentes/Brewski-Original.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'jol'; src: url('../fuentes/JustOldFashion.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mith1'; src: url('../fuentes/Mithella-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mith2'; src: url('../fuentes/Mithella-Bold.otf');
+    font-weight: bold;
+    font-style: bold;
+}
+
+
+
+
+
+
+
+
+
+body{
+    background-color: #180B08;
+    margin: 0;
+}
+.efe{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+header{
+    padding: 20px 15px 15px 20px;
+    background-color: #231916;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+nav a{
+    padding: 2px 20px;
+    border-right: 3px #581303 solid;
+    display: block;
+    color: #FCFAEA;
+    font-size: 42px;
+    font-family: "brewski", sans-serif;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+nav a:hover{
+    color: #DA9F0D;
+    font-weight: bold;
+}
+nav .contacto{
+    border-right: 0px;
+}
+nav .contacto:hover{
+    color: #3A811E;
+    font-weight: bold;
+}
+nav .proyecto:hover{
+    color: #D55820;
+    font-weight: bold;
+}
+nav .actividades:hover{
+    color: #AA2A7F;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+section{
+    display: grid;
+    background-color: #E5C478;
+    justify-content: center;
+}
+section h1{
+    color: #231916;
+    font-size: 48px;
+    font-family: "jol", sans-serif;
+}
+
+
+
+
+
+.sect1{
+    align-items: center;
+    align-content: center;
+    padding-left: 200px;
+    grid-template-columns: 1fr 1fr;
+    height: 552px;
+    background-image: url(../Imagenes/fondopro1.png);
+}
+
+
+
+
+
+
+
+.sect2{
+    text-align: center;
+    display: grid;
+    background-color: #181210;
+    justify-content: center;
+}
+.sect2 h1{
+    color: #FCFAEA;
+    font-size: 48px;
+    font-family: "jol", sans-serif;
+}
+
+
+
+.sect3{
+    text-align: center;
+    display: grid;
+    background-color: #231916;
+    color: #FCFAEA;
+    font-size: 28px;
+    font-family: "mith1", sans-serif;
+    height: 450px;
+    padding-top: 65px;
+    padding-bottom: 70px;
+    background-image: url(../Imagenes/fondopro2.png);
+
+}
+.sect3 p{
+    padding-bottom: 70px;
+    width: 760px;
+}
+
+
+
+
+
+main{
+    display: grid;
+    background-color: #E5C478;
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: #1A1A1A;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: "mith2", sans-serif;
+    color: #FCFAEA;
+    padding: 10px 15px 0 15px;
+}
+
+
+
+
